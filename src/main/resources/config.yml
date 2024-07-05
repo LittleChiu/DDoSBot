@@ -1,0 +1,20 @@
+bot_username: ""
+bot_token: ""
+
+
+attackURL: https://test.cn/api.php?username=admin&password=admin&host=$host$&port=$port$&time=60&method=$type$&vipmode=off
+successAttackKeyWords:
+  - 'success!'
+allowType:
+  - SYN:SYN
+  - UDP:ntp
+defaultPoint: 50
+attackAble: true
+adminUID:
+  - 1145141919
+helpMessage: |-
+  你好，欢迎使用
+  DDoS
+infoMessage: |-
+  DDoS Bot based on API
+  HELLO
